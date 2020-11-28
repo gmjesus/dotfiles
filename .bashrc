@@ -96,11 +96,15 @@ alias la='ls -A'
 alias l='ls -CF'
 
 #Custom aliases
-alias windows='cd /; cd mnt; cd c; cd Users; cd jesus'
-alias school='cd /; cd mnt; cd c; cd Users; cd jesus; cd Desktop; cd School'
+alias windows='cd /mnt/c/Users/jesus'
+alias school='cd /mnt/c/Users/jesus/Desktop/School'
 alias ..='cd ..'
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 alias c='clear'
 alias ecelinux='ssh jf2garci@eceubuntu.uwaterloo.ca'
+alias g="git"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
