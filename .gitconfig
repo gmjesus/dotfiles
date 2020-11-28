@@ -1,0 +1,10 @@
+[user]
+	email = jesus2208f@gmail.com
+	name = Jesus Garcia Moreno
+[alias]
+	st = status
+	br = branch
+	ci = commit
+	co = checkout
+	ps = push
+	pl = pull
