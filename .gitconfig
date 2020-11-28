@@ -2,9 +2,28 @@
 	email = jesus2208f@gmail.com
 	name = Jesus Garcia Moreno
 [alias]
-	st = status
+	s = status -s
 	br = branch
 	ci = commit
 	co = checkout
 	ps = push
 	pl = pull
+	df = diff
+	cl = clone
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
